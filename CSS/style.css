@@ -2,9 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
 }
 header {
-  background-color: cyan;
+  background-color: rgb(51, 179, 179);
+  margin-bottom: 20px;
 }
 nav {
   display: flex;
@@ -48,9 +50,38 @@ nav {
   text-decoration: none;
   border: 1px soild blue;
 }
-footer {
-  background-color: blue;
-}
 .container {
-  background-color: lightblue;
+  width: 70%;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background-color: rgb(48, 174, 247);
+  display: flex;
+  height: 100px;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+button:hover {
+  color: black;
+  background-color: rgb(186, 185, 238);
 }

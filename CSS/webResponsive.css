@@ -114,6 +114,7 @@ nav {
 }
 .solution {
   margin-top: 50px;
+  margin-bottom: 24px;
 }
 .solution-heading {
   text-align: center;
@@ -145,4 +146,35 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+}
+.customize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+.left-sidepic {
+  width: 50%;
+  img {
+    width: 100%;
+  }
+}
+.right-home{
+  width: 50%;
+  h1 {
+    color: var(--seconddary-color);
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+  }
+  p {
+    font-size: 1.2rem;
+    margin: 24px 0;
+  }
+}
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }

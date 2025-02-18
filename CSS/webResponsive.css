@@ -149,10 +149,8 @@ h2 {
 }
 .customize {
   display: flex;
-  align-items: center;
-  justify-content: center;
   justify-content: space-between;
-
+  align-items: center;
 }
 .left-sidepic {
   width: 50%;
@@ -174,7 +172,7 @@ h2 {
 }
 .support {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 60px;
 }

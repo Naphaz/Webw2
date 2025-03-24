@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtest</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: "Noto Sans Thai", sans-serif;;
+            margin:  0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-dark p-3">
+        <h1 class="text-white text-center">Welcome to Suksawat Web Test</h1>
+        <div class="lead text-white text-center ">  
+            <ul class="nav justify-content-center ">
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#AB">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#OB">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#CT">Contact</a>
+                </li>
+                </ul>
+        </div>
+    </div>
+    <div class="container-fluid bg-light text-center p-4">
+        <h2>Enhance Your Web Development Skills</h2>
+        <p>Test Your HTML, CSS, and responsive design knowledge here.</p>
+        <button type="button" class="btn btn-primary">Get Started</button>
+    </div>
+    <div class="container-fluid  py-5 " >
+        <div class="container  align-items-center">
+            <h1 id="AB">About This Test</h1> 
+            <p class="lead">
+                This test is designed to evaluate you abillity to create and sytle web pages effectively.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid bg-light text-light text-center  p-2">
+    <div class="container">
+        <h1 class="text-start text-dark " id="OB">Our Feedback</h1>
+    <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="card p-3 px-2 mb-3">
+                    <div class="card-body">
+                        <img class="card-img-top" src="images/rabbit3.jpg" alt="Card image">
+                    <h4 class="card-title bg-primary">ความรู้ก่อนเรียน</h4>
+                    <p class="text-start card-text">คิดว่าต้องยาก และมีความท้าทาย</p>
+                    <button type="button" class="btn btn-outline-primary">Read More</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 px-2 mb-3">
+                     <div class="card-body ">
+                         <img class="card-img-top" src="images/rabbit3.jpg" alt="Card image">
+                    <h4 class="card-title bg-danger">ความรู้หลังเรียน</h4>
+                    <p class="text-start card-text">สามารถนำไปต่อยอดในอนาคตสายอาชีพ</p>
+                    <button type="button" class="btn btn-outline-success">Read More</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 px-2 mb-3">
+                    <div class="card-body ">
+                         <img class="card-img-top" src="images/rabbit3.jpg" alt="Card image">
+                    <h4 class="card-title bg-warning">ความประทับใจในการเรียน</h4>
+                    <p class="text-start card-text">อาจาร์ยสั่งสอนเต็มที่ไม่มีกั๊ก ทุกชั่วโมงไม่มีพัก ไม่มีเรท ไม่มีลา</p>
+                    <button type="button" class="btn btn-outline-info">Read More</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     <div class="container-fluid py-5">
+            <div class="container">
+                <h1 id="CT">Contact Us</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                       <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Message</label>
+                                <textarea type="message" class="form-control t" id="message" rows="4"> </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container-fluid bg-dark text-white text-center py-5">
+        <p>@ 2025 Web Devbelopment Test. All Rights Reserved.  <br>
+            <br>
+        Suksawat Saelim : 384244066 <br>
+        </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
